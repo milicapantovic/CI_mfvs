@@ -85,4 +85,4 @@ The Jupyter Notebook provides visualizations of graphs with the identified feedb
 * Isidora Dukić 146/2020
 * Milica Pantović 46/2019
 
->>>>>>> bef5c3f (feat: project notebook added)
+
