@@ -1,5 +1,3 @@
-Minimum Feedback Vertex Set project
-=======
 # Minimum Feedback Vertex Set in Directed Graphs
 
 ## Problem Statement
