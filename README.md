@@ -26,25 +26,20 @@ The MFVS problem arises in numerous theoretical and practical contexts, includin
 
 6. **Iterative Compression (Sketch):** Based on Reed–Smith–Vetta (2004). Demonstrates exact methods for small k.
 
-## Requirements:
 
- * Python 3.11, 
- * networkX 
- * matplotlib
-
-## Results:
+## Results
 
  * Naive Exact: optimal but impractical for larger graphs.
 
- * Degree-Product: fastest, scales well.
+ * Greedy Degree-Product: fastest, scales well.
 
- * Frequency: more accurate but slower.
+ * Greedy Frequency: more accurate but slower.
 
  * WLS D-Sequence: best overall, often close to optimal.
 
  * Local-Ratio: competitive, moderate speed and quality.
 
-## Each run will:
+## Each run will
 
 * Print the DFVS size, runtime, and validity.
 * Show the original graph with DFVS highlighted.
@@ -62,21 +57,6 @@ The Jupyter Notebook provides visualizations of graphs with the identified feedb
 * matplotlib
 * Jupyter Notebook for interactive exploration
 
-## References
-
- * Wang, Lloyd, Soffa (1985, 1988). Feedback Vertex Sets and Cyclically Reducible Graphs.
-
- * Bafna, Berman, Fujito (1999). A 2-approximation algorithm for the undirected feedback vertex set problem.
-
- * Chudak, Goemans, Hochbaum, Williamson (1998). Primal-dual approximation algorithms for feedback problems.
-
- * Cao (2018). Naive Algorithms for Feedback Vertex Set.
-
- * Reed, Smith, Vetta (2004). Iterative Compression and Odd Cycle Transversal.
-
- * Guo, Moser, Niedermeier (2006). Iterative Compression for Feedback Vertex Set.
-
- * Fomin, Gaspers, Pyatkin (2006). On exact algorithms for feedback vertex set.
 
 ## Authors
 
