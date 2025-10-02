@@ -22,27 +22,13 @@ The MFVS problem arises in numerous theoretical and practical contexts, includin
 
 4. **WLS D-Sequence Heuristic:** based on the method by Wang, Lloyd, and Soffa (1985, 1988). Constructs a D-sequence of vertices using associated graphs. Provides optimal results on cyclically reducible graphs.
 
-5. **Local-Ratio Inspired Heuristic:** adapted from approximation algorithms for the undirected variant. Balances solution quality and runtime, though without proven guarantees for DFVS. 
+5. **Iterative Compression (Sketch):** Based on Reed–Smith–Vetta (2004). Demonstrates exact methods for small k.
 
-6. **Iterative Compression (Sketch):** Based on Reed–Smith–Vetta (2004). Demonstrates exact methods for small k.
-
-
-## Results
-
- * Naive Exact: optimal but impractical for larger graphs.
-
- * Greedy Degree-Product: fastest, scales well.
-
- * Greedy Frequency: more accurate but slower.
-
- * WLS D-Sequence: best overall, often close to optimal.
-
- * Local-Ratio: competitive, moderate speed and quality.
 
 ## Each run will
 
-* Print the DFVS size, runtime, and validity.
-* Show the original graph with DFVS highlighted.
+* Print the MFVS size, runtime, and validity.
+* Show the original graph with MFVS highlighted.
 * Show the resulting DAG after vertex removal.
 
 ## Visualization
